@@ -1,0 +1,55 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+#signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  width: 80%;
+  margin: 50px 0px 0px 10%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: large;
+  background-color: lightslategray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dataFields {
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+#radio{
+  display:  flex;
+  flex-direction: row;
+}
+label {
+  color: white;
+}
+
+#btn-1 {
+  color: black;
+  font-family: cursive;
+  font-size: large;
+  font-weight: bold;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+}
+#btn-1:hover {
+  color: blue;
+  cursor: pointer;
+}
+span {
+  color: red;
+  font-size: 15px;
+}
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
